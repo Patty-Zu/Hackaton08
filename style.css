@@ -9,6 +9,7 @@ div{
     border-radius: 10px;
     margin-left: 35%;
     width: 500px;
+    text-align: center;
 }
 
 pre:hover{
