@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>EJERCICIOS</h1>
+    <div>
+      <h2>Ejercicio 1</h2>
+      <pre>
+        Escribir "Ingrese primer numero: ";
+        leer num1;
+        Escribir "Ingrese segundo numero: ";
+        leer num2;
+        suma = (num1+num2);
+        Escribir "La suma de los numeros ingresados es: ",suma;
+      </pre>
+      
+    </div>
+    <div>
+      <h2>Ejercicio 2</h2>
+
+      <pre>
+        Escribir "Ingrese nota1";
+        Leer nota1;
+        Escribir "Ingrese nota2";
+        Leer nota2;
+        Escribir "Ingrese nota3";
+        Leer nota3;
+        Escribir "Ingrese nota4";
+        Leer nota4;
+        promedio =(nota1+nota2+nota3+nota4)/4;
+        Escribir "El promedio es: ", promedio ;
+      </pre>
+      
+    </div>
+    <div>
+      <h2>Ejercicio 3</h2>
+      <pre>
+        Escribir "Ingrese la base";
+        leer base;
+        Escribir "Ingrese la altura"
+        leer altura
+        area = base * altura
+        escribir "El area del rectangulo es: ",area;
+      </pre>
+    </div>
+
+    <div>
+      <h2>Ejercicio 4</h2>
+      <pre>
+        Escribir "Ingrese la base";
+        leer base;
+        Escribir "Ingrese la altura";
+        leer altura;
+        area = (base * altura)/2;
+        escribir "El area del triangulo es: ",area;
+      </pre>
+    </div>
+
+    <div>
+      <h2>Ejercicio 5</h2>
+      <pre>
+        escribir "Ingrese el radio de la circunferencia:";
+        leer radio;
+        pi= 3.1416;
+        area= pi*(radio*radio);
+        escribir "El area de la circunferencia es: ", area;
+      </pre>
+    </div>
+
+    <div>
+      <h2>Ejercicio 6</h2>
+      <pre>
+        Escribir "Ingrese pago por dia:";
+        leer pago;
+        Escribir "Ingrese horas trabajadas por dia:";
+        leer horaDia
+        pagoSemanal = (pago * horaDia)*7;
+        escribir "Su pago semanal es: ",pagoSemanal;
+      </pre>
+    </div>
+    <div>
+      <h2>Ejercicio 7</h2>
+      <pre>
+        escribir "Ingrese metros: ";
+        leer metros;
+        pulg = metros / 0.0254
+        escribir "Los metros ingresados en pulgadas son :", pulg;</pre>
+    </div>
+
+    <div>
+      <h2>Ejercicio 8</h2>
+      <pre>
+        Escribir "Ingrese monto en soles:";
+        leer soles;
+        dl = 3.80
+        dolar = soles/dl ;
+        Escribir "El monto en dolares es: ",dolar;
+      </pre>
+    </div>
+
+    <div>
+      <h2>Ejercicio 9</h2>
+      <pre>
+        escribir "Ingrese el año de nacimiento"
+        leer año
+        anioActual = 2021;
+        edad = anioActual - año;
+        escribir " Su edad es: ", edad;
+      </pre>
+    </div>
+    <div>
+      <h2>Ejercicio 10</h2>
+
+      <pre>
+            escribir "Ingrese nombre:";
+            leer nom1;
+            escribir "Ingrese edad:";
+            leer e1
+            escribir "Ingrese nombre:";
+            leer nom2;
+            escribir "Ingrese edad:";
+            leer e2
+            escribir "Ingrese nombre:";
+            leer nom3;
+            escribir "Ingrese edad:";
+            leer e3;
+
+              Si e1<=e2 y e2<=e3
+                escribir "el menor es:", nom1, "con",e1, "años";
+              Sino
+               SI e2 < e3
+                 escribir "el menor es:", nom2, "con",e2, "años";
+               sino
+                 escribir "el menor es:", nom3, "con",e3, "años";
+               fin si
+            fin si
+      </pre>
+    </div>
+
+    <div>
+      <h2>Ejercicio 11</h2>
+      <pre>
+        escribir "Ingrese años trabajados en la empresa"
+        leer anio;
+            si anio ==1 entonces
+             bono = 100;
+            sino
+                si anio == 2 entonces
+                bono = 200;
+                sino
+                    si anio == 3 entonces
+                    bono = 300;
+                    sino
+                        si anio == 4 entonces
+                        bono = 400;
+                        sino
+                            si anio == 5 entonces
+                            bono = 500;
+                            sino
+                                si anio >5 entonces
+                                bono = 1000;
+                                fin si
+                            fin si;
+                        fin si;  
+                    fin si;  
+                fin si;
+            fin si;
+
+            escribir "Su bono a recibir es: ",bono;
+        </pre
+      >
+    </div>
+    <div>
+      <h2>Ejecicio 12</h2>
+      <pre>
+            salario = 1500;
+            para x <- 1 hasta 6 con paso 1 hacer 
+             total = salario+(salario * 0.1)
+             escribir "el salario en el año",x,"es: ",total;
+             fin para;
+             escribir "El salario en 6  años es : ",total;
+        </pre
+      >
+    </div>
+    <div>
+      <h2>Ejercicio 13</h2>
+      <pre>
+            apro =0;
+            desa = 0;
+    
+            escribir "Ingrese el numero de alumnos ";
+            leer n;
+
+            mientras n>0 hacer
+            escribir "Ingrese nota";
+            leer nota;
+            si nota >= 12 entonces
+                apro = apro + 1;
+              sino
+                desa = desa +1;
+            fin si;
+            n=n-1;
+            fin mientras;
+
+            escribir "Los alumnos aprobados son: ",apro;
+            escribir "Los alumnos desaprobados son: ",desa;
+
+        </pre
+      >
+    </div>
+    <div>
+      <h2>Ejercicio 14</h2>
+      <pre></pre>
+    </div>
+    <div>
+      <h2>Ejercicio 15</h2>
+      <pre>
+            escribir "Ingrese su edad:"
+            leer edad;
+            si edad >= 18 entonces;
+                escribir "Usted puede votar en estas elecciones"
+            sino
+                escribir "Usted  es menor, aun no puede votar"
+        </pre
+      >
+    </div>
+  </body>
+</html>

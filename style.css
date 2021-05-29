@@ -1,0 +1,17 @@
+body {
+    background: #0E5965;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+div{
+    background: #E18D8C;
+    border-radius: 10px;
+    margin-left: 35%;
+    width: 500px;
+}
+
+pre:hover{
+    background: #EFB5B5;
+}
+
